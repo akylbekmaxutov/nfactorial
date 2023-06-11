@@ -1,0 +1,7 @@
+let btn = document.getElementById("hider");
+    btn.onclick = function() {
+      let txt = document.getElementById("text");
+      txt.hidden = true;
+    }
+
+pane.insertAdjacentHTML("afterbegin", '<button class="remove-button">[x]</button>');

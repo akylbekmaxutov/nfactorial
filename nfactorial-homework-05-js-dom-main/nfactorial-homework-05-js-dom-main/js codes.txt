@@ -1,0 +1,7 @@
+console.log(document.querySelector("#age-table"))
+
+console.log(document.querySelector("table").querySelectorAll("label"))
+
+console.log(document.getElementsByName("search")[0])
+
+console.log(document.getElementsByName("search")[0].getElementsByTagName("input")[0])
