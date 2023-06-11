@@ -1,0 +1,163 @@
+* {
+  background-color: #130125;
+  color: #FFFFFF;
+}
+
+.App {
+  width: 80%;
+  margin: auto;
+  padding-top: 2%; 
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-header__MyName {
+  display: flex;
+  width: 60%;
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 32px;
+}
+
+.App-header__NavInfo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  list-style-type: none;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-main {
+  padding-top: 13%;
+  padding-bottom: 13%;
+}
+
+.App-main__Me {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 60px;
+}
+
+.App-main__WhoAmI {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 20px;
+}
+
+.App-main__CVButton {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 18px;
+  background: #FD5A14;
+  border-radius: 4px;
+  padding: 16px 24px;
+}
+
+.App-about {
+  padding-top: 13%;
+  padding-bottom: 13%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-about__Info {
+  width: 70%;
+}
+
+.App-about__Me {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 60px;
+}
+
+.App-about__ExtraInfo {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-size: 20px;
+}
+
+.App-about__BulletInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.App-about__BulletInfo ul{
+  list-style-image: url('../public/1.png');
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+}
+
+.App-about__BulletInfo-Col {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.App-about__BulletInfo-Col-elems{
+  padding-top: 3%;
+}
+
+.App-about__Avatar {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.App-experience {
+  padding-top: 13%;
+  padding-bottom: 13%;
+}
+
+.App-experience h1 {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 60px;
+}
+
+.App-experience__Info {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-experience__Info-years {
+  font-family: 'Courier New';
+  font-style: normal;
+  font-size: 12px;
+}
+
+.App-experience__Info-role li {
+  list-style-image: url('../public/2.png');
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+}
+
+.App-experience__Info-City {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 12px;
+}
+
+.App-experience__Info-Obligations {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+}

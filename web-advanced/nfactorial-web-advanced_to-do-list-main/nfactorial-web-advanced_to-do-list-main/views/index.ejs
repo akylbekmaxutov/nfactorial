@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+</head>
+<body>
+    <div>
+        <h2>To-Do List</h2>
+        <div class="todo">
+            <form action="/" method="POST">
+                <input type="text" name="content">
+                <button type="submit">Submit</button>
+            </form>
+            <ul class="todo-list__items">
+                <% todo.forEach(details => { %>
+                <li class="todo-list__item">
+                    <div class="todo-list-item"><%= details.content %></div>
+                </li>
+                <% }) %>
+            </ul>
+            <p>NOTE: to delete something add /delete/?content? to the link</p>
+            <p>Example: http://localhost:3000/delete/reading</p>
+        </div>
+    </div>
+</body>
+</html>
